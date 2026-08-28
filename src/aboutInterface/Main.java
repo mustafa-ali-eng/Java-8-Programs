@@ -1,3 +1,4 @@
+package aboutInterface;
 
 interface Vehicle {
 
@@ -21,7 +22,7 @@ class Car implements Vehicle {
     @Override //interface default methods we can override in impl classes
     public void cleanVechicle ( )
     {
-        System.out.println("Car Cleaning Vechicle");
+        System.out.println("aboutInterface.Car Cleaning Vechicle");
     }
 
     public void startVechicle ( ) {
