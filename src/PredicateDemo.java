@@ -2,6 +2,7 @@ import java.beans.Expression;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
 class Person{
@@ -108,6 +109,21 @@ public class PredicateDemo {
 //                System.out.println(e.name+" ----> "+e.location+" -----> "+e.department );
 //            }
 //        }
+
+
+        //   BiPredicate
+
+        BiPredicate<Integer ,Integer> bip = (i , j) -> (i + j) >=10;
+        System.out.println(bip.test(1,2));
+        System.out.println(bip.test(9,5));
+
+
+
+
+//                     ERROR there is not tripredicate or so on
+//        BiPredicate<Integer ,Integer,Integer> tip = (i , j, k) -> (i + j + k) >=10;
+//        System.out.println(bip.test(1,2,6));
+//        System.out.println(bip.test(9,5,8));
 
     }
 
