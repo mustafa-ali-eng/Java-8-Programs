@@ -90,21 +90,21 @@ public class PredicateDemo {
 //============================================================================
 
 
-//        List<Employee> employees = new ArrayList<>();
+//        List<ImportantQuestions.Employee> employees = new ArrayList<>();
 //
-//        Employee e1 = new Employee("Anil", "Chennai", "DevOps");
-//        Employee e2 = new Employee("Rani", "Pune", "Networking");
-//        Employee e3 = new Employee("Ashok", "Hyd", "DB");
-//        Employee e4 = new Employee("Ganesh", "Hyd", "DB");
-//        Employee e5 = new Employee("Kal", "Bihar", "DB");
+//        ImportantQuestions.Employee e1 = new ImportantQuestions.Employee("Anil", "Chennai", "DevOps");
+//        ImportantQuestions.Employee e2 = new ImportantQuestions.Employee("Rani", "Pune", "Networking");
+//        ImportantQuestions.Employee e3 = new ImportantQuestions.Employee("Ashok", "Hyd", "DB");
+//        ImportantQuestions.Employee e4 = new ImportantQuestions.Employee("Ganesh", "Hyd", "DB");
+//        ImportantQuestions.Employee e5 = new ImportantQuestions.Employee("Kal", "Bihar", "DB");
 //
 //        employees.addAll(Arrays.asList(e1,e2,e3,e4,e5));
-//        Predicate<Employee> per1 = p -> p.location.equals("Hyd");
-//        Predicate<Employee> per2 = p -> p.department.equals("DB");
+//        Predicate<ImportantQuestions.Employee> per1 = p -> p.location.equals("Hyd");
+//        Predicate<ImportantQuestions.Employee> per2 = p -> p.department.equals("DB");
 //
         // Predicate Joining
-//        Predicate<Employee> res= per1.and(per2);
-//        for (Employee e : employees) {
+//        Predicate<ImportantQuestions.Employee> res= per1.and(per2);
+//        for (ImportantQuestions.Employee e : employees) {
 //            if (res.test(e)) {
 //                System.out.println(e.name+" ----> "+e.location+" -----> "+e.department );
 //            }
